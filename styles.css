@@ -1,0 +1,181 @@
+body{
+    justify-content: center;
+    line-height: 1,8mm;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+@font-face {
+    font-family: roboto ;
+    src: url(https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900);
+}
+
+
+header{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+    padding: 2mm;
+    margin-bottom: 0%;
+    margin: 0%;
+}
+
+.logo img{
+    margin: auto;
+    display: flex;
+    height: 40px;
+    padding: 0px ;
+ 
+}
+
+header nav{
+    margin: auto;
+   margin-left: 30%;
+   gap: 30px;
+  
+  
+}
+
+header nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.connect {
+    background-color: rgb(248, 238, 238);
+    color: rgb(128, 6, 6);
+    text-decoration: none;
+    margin-left: 40%;
+    border-radius: 10px;
+    padding: 9px;
+
+}
+
+#connect1 { 
+    background-color: rgb(203, 233, 71);
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 40px;
+    color: crimson;
+    font-weight: bold;
+}
+#p1{
+    margin: 20px 20px;
+    line-height: 30px;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+}
+
+#photo1{
+    width: 400px;
+    margin: auto;
+}
+
+#photo2{
+    max-height: 500px;
+    width: 800px ;
+    margin: auto;
+}
+#photo3{ 
+    margin: auto;
+    width: 800px ;
+    max-height: 500px;
+   
+}
+.section1{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+   justify-content: last baseline;
+}
+
+.section2 { 
+    display: flex;
+    justify-items: center;
+    text-align: center;
+   justify-content: center;
+   line-height: 30px;
+   margin: auto;
+
+
+}
+
+.section3 { 
+    display: flex;
+    justify-items: center;
+    text-align: center;
+   justify-content: center;
+   line-height: 30px;
+   margin: auto;
+
+
+}
+
+#section4 {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    margin: auto;
+  
+
+ }
+
+ th,tr,td{
+    border: 1px solid white;
+}
+
+#tabl{
+    text-align: center;
+    margin: auto;
+
+    
+}
+
+.tabl {
+    margin: auto;
+    display: flex;
+    margin-left: 20px;
+    text-align: flex;
+    justify-items: center;
+
+}
+
+
+#video1{
+    margin: auto;
+    justify-content: center;
+}
+.section5{
+    text-align: left;
+    color: white;
+    background-color: rgba(249, 16, 4, 0.9);
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 20px;
+    border: 3px solid rgb(11, 5, 0);
+} 
+   
+
+
+
+footer{
+    text-align: center;
+    background-color: rgba(253, 7, 7, 0.979);
+    color: white;
+    padding: 5mm;
+    margin: auto;
+}
